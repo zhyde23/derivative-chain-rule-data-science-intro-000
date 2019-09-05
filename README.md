@@ -78,8 +78,8 @@ from graph import trace_values, plot
 x_values = list(range(0, 10))
 f_of_x_values = list(map(lambda x: f_of_x(x),x_values))
 g_of_x_values = list(map(lambda x: g_of_x(x),x_values))
-f_of_x_trace = trace_values(x_values, f_of_x_values, mode = 'lines', name = 'g(x) = 0.5*x + 3')
-g_of_x_trace = trace_values(x_values, g_of_x_values, mode = 'lines', name = 'f(x) = (g(x))^2')
+f_of_x_trace = trace_values(x_values, f_of_x_values, mode = 'lines', name = 'f(x) = (g(x))^2')
+g_of_x_trace = trace_values(x_values, g_of_x_values, mode = 'lines', name = 'g(x) = 0.5*x + 3')
 plot([g_of_x_trace, f_of_x_trace])
 ```
 
@@ -92,7 +92,7 @@ plot([g_of_x_trace, f_of_x_trace])
 
 
 
-<div id="c69c327d-dfd7-49b2-83d7-329a14e61a16" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("c69c327d-dfd7-49b2-83d7-329a14e61a16", [{"mode": "lines", "name": "f(x) = (g(x))^2", "text": [], "x": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "y": [3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5], "type": "scatter", "uid": "48df9ebe-cff1-11e9-b865-3af9d3ad3e0b"}, {"mode": "lines", "name": "g(x) = 0.5*x + 3", "text": [], "x": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "y": [9.0, 12.25, 16.0, 20.25, 25.0, 30.25, 36.0, 42.25, 49.0, 56.25], "type": "scatter", "uid": "48dfa008-cff1-11e9-afc1-3af9d3ad3e0b"}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
+<div id="802d2af7-cb10-450e-be9b-637a74beb898" style="height: 525px; width: 100%;" class="plotly-graph-div"></div><script type="text/javascript">require(["plotly"], function(Plotly) { window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("802d2af7-cb10-450e-be9b-637a74beb898", [{"mode": "lines", "name": "g(x) = 0.5*x + 3", "text": [], "x": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "y": [3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5], "type": "scatter", "uid": "a1e5e23e-cff1-11e9-ba16-3af9d3ad3e0b"}, {"mode": "lines", "name": "f(x) = (g(x))^2", "text": [], "x": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "y": [9.0, 12.25, 16.0, 20.25, 25.0, 30.25, 36.0, 42.25, 49.0, 56.25], "type": "scatter", "uid": "a1e5e358-cff1-11e9-bb5e-3af9d3ad3e0b"}], {}, {"showLink": true, "linkText": "Export to plot.ly"})});</script>
 
 
 Ok, so now that we have a sense of how our function $g(x) = 0.5x + 3$ and $f(x) = (g(x))^2$ look, let's begin to take derivatives of these functions, starting with the derivative of $g(x)$, the inner function.
