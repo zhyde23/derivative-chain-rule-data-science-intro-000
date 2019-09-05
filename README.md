@@ -115,7 +115,7 @@ def f_of_x(x): # outer function f(x)
     
 ```
 
-> **The chain rule**: So in taking the derivative, $\frac{\Delta f}{\Delta x}$ of an outer function, $f(x)$, which depends on an inner function $g(x)$, which depends on $x$, the derivative equals the derivative of the outer function times the derivative of the inner function.  
+> **The chain rule**: So in taking the derivative, $\frac{df}{dx}$ of an outer function, $f(x)$, which depends on an inner function $g(x)$, which depends on $x$, the derivative equals the derivative of the outer function times the derivative of the inner function.  
 
 **Or:**
 
