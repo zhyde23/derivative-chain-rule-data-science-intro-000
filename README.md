@@ -3,7 +3,7 @@
 
 ### Introduction
 
-So far we have seen that the derivative of a function is the instantaneous rate of change of that function.  In other words, how does a function's output change as we change one of the variables.  In this lesson, we will learn about the chain rule, which allows us to see how a function's output change as we change a variable that function does not directly depend on.  The chain rule may seem complicated, but it is just a matter of following the prescribed procedure.  Learning about the chain rule will allow us to take the derivative of more complicated functions that we will encounter in machine learning.
+So far we have seen that the derivative of a function is the instantaneous rate of change of that function.  In other words, how does a function's output change as we change one of the variables.  In this lesson, we will learn about the chain rule, which allows us to see how a function's output changes as we change a variable that the function does not directly depend on.  The chain rule may seem complicated, but it is just a matter of following a prescribed procedure.  Learning about the chain rule will allow us to take the derivative of more complicated functions that we will encounter in machine learning.
 
 ### The chain rule
 
